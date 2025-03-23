@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.Hero {
+    background: url;
+}
+
+/* Skills & Achievements */
+section {
+    padding: 20px;
+    background: aquamarine;
+    margin: 20px;
+}
+
+h2 {
+    color: #0073e6;
+}
+
+/* Contact Form */
+form {
+    background: aqua;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+
+button {
+    background: #0073e6;
+    color: yellow;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005bb5;
+}
+
+/* Sidebar */
+aside {
+    background: gray;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    margin: 20px auto;
+    text-align: center;
+}
+img {
+    width: 20%;  
+    height: auto; 
+    aspect-ratio: 3 / 4; 
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+

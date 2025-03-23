@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feature Page</title>
+    <link rel="stylesheet" href="css/feature.css"> 
+    <script src="js/script.js"></script> 
+</head>
+<body>
+    <header>
+        <h1>Crislene's Profile</h1>
+        <nav class="Navbar">
+            <a href="home.html">Home Page</a><br>
+            <a href="featurepage.html">Feature Page</a><br>
+        </nav>
+        </header>
+
+    <section class="hero">
+        <h2>Welcome to My Feature Products</h2>
+        <p>Discover the best products we offer</p>
+    </section>
+
+    <!-- Feature Presentation -->
+    <section class="feature_presentation">
+        <img src="assets/gsm.jpg" alt="Feature Product">
+        <div class="feature_info">
+            <h2>G.S.M Blue</h2>
+            <p>G.S.M. Blue is a gin brand from the Philippines, produced by Ginebra San Miguel Inc. It's crafted from Philippine-grown sugarcane and infused with essences of juniper berries and other botanicals. With an alcohol by volume (ABV) of 32.5%, it serves as an entry-level spirit in the Ginebra San Miguel gin portfolio. ​</p>
+        </div>
+    </section>
+    <section class="Products">
+        <h2>Feature Products</h2>
+        <div class="grid">
+            <div class="product">
+                <h2>G.S.M Blue </h2>
+                <img src="assets/gsm.jpg" height="300"  width="300"/>
+                <h3>Price: 140.00</h3>
+                <button class = "buttonAdd" onClick="addToCart('G.S.M Blue ',  140.00)">Add to Cart</button>
+                <button class = "buttonRem" onClick="removeFromCart('G.S.M Blue ',  140.00)">Remove from Cart</button>
+            </div>
+            <div class="product">
+                <h2>Tanduay</h2>
+                <img src="assets/tanduay.jpg" height="300"  width="300"/>
+                <h3>Price: 180.00</h3>
+                <button class = "buttonAdd" onClick="addToCart('Tanduay',  180.00)">Add to Cart</button>
+                <button class = "buttonRem" onClick="removeFromCart('Tanduay ',  180.00)">Remove from Cart</button>
+            </div>
+            <div class="product">
+                <h2>Emperador Light</h2>
+                <img src="assets/emperador.jpg" height="300"  width="300"/>
+                <h3>Price: 150.00</h3>
+                <button class = "buttonAdd" onClick="addToCart('Emperador Light ',  150.00)">Add to Cart</button>
+                <button class = "buttonRem" onClick="removeFromCart('Emperador Light ',  150.00)">Remove from Cart</button>
+            </div>
+            <div class="product">
+                <h2>San Miguel Beer </h2>
+                <img src="assets/san miguel beer.jpg" height="300"  width="300"/>
+                <h3>Price: 55.00</h3>
+                <button class = "buttonAdd" onClick="addToCart('san Miguel Beer ',  55.00)">Add to Cart</button>
+                <button class = "buttonRem" onClick="removeFromCart('San Miguel Beer ',  55.00)">Remove from Cart</button>
+            </div>
+            <div class="product">
+                <h2>Red Horse Beer </h2>
+                <img src="assets/redhorse.jpg" height="300"  width="300"/>
+                <h3>Price: 60.00</h3>
+                <button class = "buttonAdd" onClick="addToCart('Red Horse Beer ',  60.00)">Add to Cart</button>
+                <button class = "buttonRem" onClick="removeFromCart('Red Horse Beer',  60.00)">Remove from Cart</button>
+            </div>
+            <div class="product">
+                <h2>Jack Daniel's </h2>
+                <img src="assets/jackDaniel's.jpg" height="300"  width="300"/>
+                <h3>Price: 1400.00</h3>
+                <button class = "buttonAdd" onClick="addToCart('Jack Daniels',  1400.00)">Add to Cart</button>
+                <button class = "buttonRem" onClick="removeFromCart('Jack Daniels',  1400.00)">Remove from Cart</button>
+            </div>
+            <div class="product">
+                <h2>Johnnie Walker Black</h2>
+                <img src="assets/Johnnie-Walker-Black-Label.jpg" height="300"  width="300"/>
+                <h3>Price: 1700.00</h3>
+                <button class = "buttonAdd" onClick="addToCart('Johnnie Walker Black ',  1700.00)">Add to Cart</button>
+                <button class = "buttonRem" onClick="removeFromCart('Johnnie Walker Black ',  1700.00)">Remove from Cart</button>
+            </div>
+            <div class="product">
+                <h2>Chivas Regal</h2>
+                <img src="assets/chivas regal.jpg" height="300"  width="300"/>
+                <h3>Price: 1600.00</h3>
+                <button class = "buttonAdd" onClick="addToCart('Chivas Regal ',  1600.00)">Add to Cart</button>
+                <button class = "buttonRem" onClick="removeFromCart('Chivas Regal ',  1600.00)">Remove from Cart</button>
+            </div>
+            <div class="product">
+                <h2>Martell Cognac</h2>
+                <img src="assets/martell cognac.jpg" height="300"  width="300"/>
+                <h3>Price: 3500.00</h3>
+                <button class = "buttonAdd" onClick="addToCart('Martell Cognac ',  3500.00)">Add to Cart</button>
+                <button class = "buttonRem" onClick="removeFromCart('Martell Cognac ',  3500.00)">Remove from Cart</button>
+            </div>
+            <div class="product">
+                <h2>Bacardi Rum</h2>
+                <img src="assets/bacardi.jpg" height="300"  width="300"/>
+                <h3>Price: 1300.00</h3>
+                <button class = "buttonAdd" onClick="addToCart('Bacardi Rum ',  1300.00)">Add to Cart</button>
+                <button class = "buttonRem" onClick="removeFromCart('Bacardi Rum ',  1300.00)">Remove from Cart</button>
+            </div>
+            <div class="product">
+                <h2>Jose Cuervo Tequila</h2>
+                <img src="assets/jose cuervo tequila.jpg" height="300"  width="300"/>
+                <h3>Price: 2000.00</h3>
+                <button class = "buttonAdd" onClick="addToCart('Jose Cuervo Tequila ',  2000.00)">Add to Cart</button>
+                <button class = "buttonRem" onClick="removeFromCart('Jose Cuervo Tequila ',  2000.00)">Remove from Cart</button>
+            </div>
+            <div class="product">
+                <h2>Hennessy VS</h2>
+                <img src="assets/hennessy vs.png" height="300"  width="300"/>
+                <h3>Price: 2500.00</h3>
+                <button class = "buttonAdd" onClick="addToCart('Hennessy VS ',  2500.00)">Add to Cart</button>
+                <button class = "buttonRem" onClick="removeFromCart('Hennessy VS ',  2500.00)">Remove from Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sidebar (Aside) -->
+    <aside>
+        <img src="assets/logo.jpg" alt="Feature Logo">
+        <div class="Cart">
+            <h3>Cart List</h3>
+            <h3>Total Price: <span id="totalPrice">0.00</span></h3>
+            <ul id="products"></ul>
+        </div>
+        
+    </aside>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Feature Page. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
